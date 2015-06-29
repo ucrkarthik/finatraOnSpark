@@ -61,7 +61,7 @@ object App extends FinatraServer {
         val retValue = counts.filter{case (x,y) => !x.isEmpty}.sortBy(_._2, false).map{case (x, y) => Map("text" -> x, "size" -> y)}
 
         // Collect the values from the partition and take the top 100 results and convert it to a JSON response.
-        Future(render.json(retValue.collect().take(100)))
+        Future(render.json(retValue.take(100)))
       }
     }
 
