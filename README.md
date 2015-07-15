@@ -22,7 +22,7 @@ sh launch.sh
 Finatra Admin Page : Use the shutdown link shutdown finatra
 http://localhost:7972/admin
 
-NOTE: In the links below, provide an absolute path to a file from your local drive(remove the text in bold/underlined and provide your own file location). Firefox seems to work better with D3.
+NOTE: In the links below, provide an absolute path to a file from your local drive. Firefox seems to work better with D3.
 Word Cloud: Via the UI 
 http://localhost:7979/index.html?input.file=/Users/venkatesan3/temp/npm-debug.log
 
