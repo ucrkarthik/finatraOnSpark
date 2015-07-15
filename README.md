@@ -11,8 +11,6 @@ export PATH=$SPARK_HOME/bin:$PATH
 #Build the project using Maven
 cd to finatraOnSpark
 
-Run Maven 
-
 mvn clean install
 
 
