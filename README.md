@@ -16,12 +16,12 @@ Run Maven
 mvn clean install
 
 
-
 #Launch Finatra(micro-services):
 sh launch.sh
 
 
-#Finatra Admin Page : Use the shutdown link shutdown finatra
+#Notes
+Finatra Admin Page : Use the shutdown link shutdown finatra
 http://localhost:7972/admin
 
 NOTE: In the links below, provide an absolute path to a file from your local drive(remove the text in bold/underlined and provide your own file location). Firefox seems to work better with D3.
