@@ -2,21 +2,26 @@
 finatraOnSpark does word count in Spark and Word Cloud in the UI
 
 
-Set/Export SPARK_HOME:
-bash-3.2$ echo $SPARK_HOME
-/Users/venkatesan3/spark-1.4.0
+#Set Env Variable
+Set/Export SPARK_HOME: 
+export SPARK_HOME=/Users/venkatesan3/spark-1.4.0
+export PATH=$SPARK_HOME/bin:$PATH
 
-Unzip the finatraOnSpark.zip
 
+#Build the project using Maven
 cd to finatraOnSpark
 
 Run Maven 
+
 mvn clean install
 
-Launch Finatra(micro-services):
+
+
+#Launch Finatra(micro-services):
 sh launch.sh
 
-Finatra Admin Page : Use the shutdown link shutdown finatra
+
+#Finatra Admin Page : Use the shutdown link shutdown finatra
 http://localhost:7972/admin
 
 NOTE: In the links below, provide an absolute path to a file from your local drive(remove the text in bold/underlined and provide your own file location). Firefox seems to work better with D3.
