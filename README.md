@@ -6,6 +6,7 @@ finatraOnSpark does word count in Spark and Word Cloud in the UI
 Set/Export SPARK_HOME: 
 
 export SPARK_HOME=/Users/venkatesan3/spark-1.4.0
+
 export PATH=$SPARK_HOME/bin:$PATH
 
 
