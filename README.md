@@ -1,5 +1,5 @@
 # finatraOnSpark
-finatraOnSpark does word count in Spark and Word Cloud in the UI
+finatraOnSpark runs finatra on Apache Spark. Its a play on the word-count example. Where it does a word count on a file and displays the results in a D3 word-cloud.
 
 
 #Set Env Variable
